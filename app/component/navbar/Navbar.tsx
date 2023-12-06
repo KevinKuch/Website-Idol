@@ -11,7 +11,6 @@ export default function Navbar({}) {
         hidden: {opacity: 0, y: 50}
     }
 
-
     return (
         <>
             <div className='pt-5'>
