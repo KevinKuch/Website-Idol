@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 
 export default function Schedule({}) {
 
+    // State pour suivre l'élément sélectionné et les données de l'horaire
     const [selectedItem, setSelectedItem] = useState<number>(0);
     const [scheduleData, setScheduleData] = useState<ScheduleData[]>([]);
 
@@ -33,6 +34,7 @@ export default function Schedule({}) {
         "Red Velvet",
     ];
 
+    // Fonction pour rendre la liste d'images des groupes
     const listImage = () => {
         const images = [
             "/images/bts.jpg",
@@ -42,6 +44,7 @@ export default function Schedule({}) {
             "/images/redvelvet.jpg",
         ];
 
+        // Mapper les images et les afficher
         return images.map((image, index) => (
             <img
               key={index}
@@ -54,6 +57,7 @@ export default function Schedule({}) {
           ));
         }    
 
+    // Effet pour récupérer les données de l'horaire lors du rendu initial
     useEffect(() => {
         const fetchSchedule = async () => {
             try {
@@ -67,9 +71,10 @@ export default function Schedule({}) {
         fetchSchedule();
     });
 
+    // Fonction pour rendre les informations de date et événements
     const renderDate = () => {
+        // Vérifiez si les données d'horaire pour l'élément sélectionné existent
         if(!scheduleData[selectedItem]) return null;
-
         const dates = scheduleData[selectedItem].dates;
 
         return (
@@ -132,6 +137,7 @@ export default function Schedule({}) {
             </motion.div>
             <motion.div variants={item} className='mt-24 lg:text-xl text-base overflow-x-auto'>
                 <ul className='flex flex-wrap justify-center items-center text-xl md:text-3xl uppercase space-x-9 whitespace-nowrap scrollbar-hide text-neutral-500'> 
+                {/* un tableau généré avec une longueur de 5 */}
                     {Array.from({length:5}, (_, index) => (
                         <li key={index} onClick={() => handleClick(index)}
                             className={`${selectedItem === index ? 'scale-125 text-yellow-500 shadow-xl' : ""} transition-all ease-in duration-150 cursor-pointer`}

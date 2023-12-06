@@ -31,15 +31,15 @@ export default function Intro({}) {
                 viewport={{once:true}}
                 variants={containerIntro}
             >
-                <motion.h1 variants={itemIntro} className='text-center text-9xl pb-2 leading-snug max-lg:text-7xl max-md:text-5xl'>Feel the Rhytm of</motion.h1>
-                <motion.p variants={itemIntro} className='text-center text-9xl pb-2 leading-snug max-lg:text-7xl max-md:text-5xl'>Your Heart&apos;s Music</motion.p>
+                <motion.h1 variants={itemIntro} className='text-center text-9xl pb-2 leading-snug max-lg:text-7xl max-md:text-5xl'>Danse, rythme, émotion</motion.h1>
+                <motion.p variants={itemIntro} className='text-center text-9xl pb-2 leading-snug max-lg:text-7xl max-md:text-5xl'>Idol Kpop captivantc</motion.p>
                 <motion.p variants={itemIntro} className='text-xl text-center w-10/12 mx-auto tracking-widest text-neutral-400 max-lg:text-base max-md:text-sm'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget augue nec massa volutpat aliquam fringilla non.
                 </motion.p>
             </motion.div>
 
             <div className='mt-28 text-white'>
                 <div className='p-2 relative'>
-                    <img className='w-full lg:h-[700px] md:h-[500px] h-[300px] object-cover object-top opacity-100' src="" alt="" />
+                    <img className='w-full lg:h-[700px] md:h-[500px] h-[300px] object-cover object-top opacity-100' src="/images/aespa.webp" alt="Aespa" />
                     <motion.div 
                         variants={containerIntro} 
                         initial='hidden' 

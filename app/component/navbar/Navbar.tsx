@@ -1,7 +1,7 @@
 'use client'
 import Image from 'next/image'
-import { motion, useAnimate, stagger } from 'framer-motion'
-import { animate } from 'framer-motion/dom'
+import { motion } from 'framer-motion'
+
 
 
 export default function Navbar({}) {
@@ -13,7 +13,7 @@ export default function Navbar({}) {
 
     return (
         <>
-            <div className='pt-5'>
+            <nav className='pt-5'>
                 <div className='flex flex-row items-center justify-between'>
                     <div>
                         <Image 
@@ -42,7 +42,7 @@ export default function Navbar({}) {
                         <button className='lg:px-7 py-2 px-5 bg-white text-black'>Sign in/Log in</button>
                     </div>
                 </div>
-            </div>  
+            </nav>  
         </>
     );
 }
