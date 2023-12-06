@@ -16,12 +16,7 @@ export default function Navbar({}) {
             <nav className='pt-5'>
                 <div className='flex flex-row items-center justify-between'>
                     <div>
-                        <Image 
-                        priority={true} 
-                        src='/images/logo.png'
-                        alt='Logo' 
-                        width={196} 
-                        height={20} 
+                        <img className='w-[200px]' src="/images/logo1.png" alt="Logo"
                         />
                     </div>
                     <motion.ul 
@@ -29,7 +24,7 @@ export default function Navbar({}) {
                     whileInView='visible'
                     variants={navVariants}
                     viewport={{once:true}}
-                    transition={{duration: 0.5, delay: 0.2}}
+                    transition={{duration: 0.5}}
                     
                     className='flex flex-row items-center lg:space-x-10 space-x-6 max-md:hidden'>
                         <li><a href="">Accueil</a></li>
