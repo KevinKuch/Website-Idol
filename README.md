@@ -32,5 +32,6 @@ Ce projet exploite les technologies suivantes pour offrir une expérience web fl
 - **NextAuth**
   ![NextAuth](https://img.shields.io/badge/NextAuth-vX.X.X-blue)
   - Une solution d'authentification complète pour les applications Next.js, fournissant un système d'authentification sécurisé et personnalisable dès le départ.
+  - À venir*
 
 
