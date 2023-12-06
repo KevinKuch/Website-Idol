@@ -132,7 +132,7 @@ export default function Schedule({}) {
         viewport={{once:true}}
         >
             <motion.div variants={item}>
-                <h1 className='lg:text-7x; text-4xl text-center mb-6'>Schedule</h1>
+                <h1 className='lg:text-7x; text-4xl text-center mb-6'>Horaire</h1>
                 <p className='lg:text-2xl text-base  text-center w-6/12 max-md:w-10/12 mx-auto text-neutral-400'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, harum!</p>
             </motion.div>
             <motion.div variants={item} className='mt-24 lg:text-xl text-base overflow-x-auto'>
@@ -154,7 +154,7 @@ export default function Schedule({}) {
                 </div>
             </motion.div>
             <motion.div variants={item} className='flex items-baseline mt-32 justify-center'>
-                <button className='px-5 py-2 border-2 hover:bg-white hover:text-black transition-all ease-in duration-150'>Show more</button>
+                <button className='px-5 py-2 border-2 hover:bg-white hover:text-black transition-all ease-in duration-150'>Afficher plus</button>
             </motion.div>
         </motion.div>
     );

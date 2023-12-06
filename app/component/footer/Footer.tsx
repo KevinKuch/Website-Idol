@@ -10,7 +10,7 @@ export default function Footer({}) {
                     <div className="left flex flex-col justify-between max-md:mb-10">
                         <div className="">
                             <img className="w-[200px] mb-3" src='./images/logo1.png' alt="Logo Image" />
-                            <h1 className="text-xl font-bold">The biggest, extraordinary and spread <br />out kpop music festival all around the world</h1>
+                            <h1 className="text-xl font-bold">Le plus grand, extraordinaire et étendu festival de musique <br/> K-pop à travers le monde.</h1>
                         </div>
                         <p className="mt-20 max-md:hidden text-xl">2023 &copy; Elegent</p>
                     </div>

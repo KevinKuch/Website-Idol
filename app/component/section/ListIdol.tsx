@@ -47,7 +47,7 @@ export default function ListIdol({}) {
                     <h1 className='text-4xl mt-7 mb-4 max-sm:text-3xl uppercase'>Red Velvet</h1>
                     <p className='text-2xl text-neutral-500 max-sm:text-xl'>SM Entertainments</p>
                     <p className='text-neutral-500 mt-3 max-sm:text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsam possimus mollitia officia asperiores necessitatibus est nesciunt earum rerum non.</p>
-                    <button className='px-5 py-2 mt-5 border-2 border-white hover:bg-white hover:text-black transition-all ease-in duration-200'>Show more</button>
+                    <button className='px-5 py-2 mt-5 border-2 border-white hover:bg-white hover:text-black transition-all ease-in duration-200'>Afficher plus</button>
                 </motion.div>
 
                 <motion.img variants={image} className='md:mt-[40px]' src="/images/blackpink.jpg" alt="Black pink" />
@@ -56,7 +56,7 @@ export default function ListIdol({}) {
                     <h1 className='text-4xl mt-7 mb-4 max-sm:text-3xl uppercase'>Black pink</h1>
                     <p className='text-2xl text-neutral-500 max-sm:text-xl'>SM Entertainments</p>
                     <p className='text-neutral-500 mt-3 max-sm:text-sm'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime ipsam possimus mollitia officia asperiores necessitatibus est nesciunt earum rerum non.</p>
-                    <button className='px-5 py-2 mt-5 border-2 border-white hover:bg-white hover:text-black transition-all ease-in duration-200'>Show more</button>
+                    <button className='px-5 py-2 mt-5 border-2 border-white hover:bg-white hover:text-black transition-all ease-in duration-200'>Afficher plus</button>
                 </motion.div>
             </motion.div>
         </div>

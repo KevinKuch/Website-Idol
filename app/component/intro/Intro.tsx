@@ -48,8 +48,8 @@ export default function Intro({}) {
                         transition={{delay:1.5, delayChildren:0.1}}
                     >
                         <motion.span variants={itemIntro} className="absolute top-4 left-4 lg:text-7xl text-4xl">Aespa</motion.span>
-                        <motion.span variants={itemIntro} className="absolute bottom-8 left-4 lg:text-xl md:text-base text-sm max-sm:hidden">Aespa is a South Korean girl group formed by SM Entertainment.</motion.span>
-                        <motion.span variants={itemIntro}className="absolute top-4 right-4 md:text-xl text-sm">Go and Buy the tickets</motion.span>
+                        <motion.span variants={itemIntro} className="absolute bottom-8 left-4 lg:text-xl md:text-base text-sm max-sm:hidden">Aespa est un groupe de filles sud-coréen formé par SM Entertainment.</motion.span>
+                        <motion.span variants={itemIntro}className="absolute top-4 right-4 md:text-xl text-sm">Allez acheter les billets.</motion.span>
                         <motion.span variants={itemIntro} className="absolute right-4 bottom-4 md:text-3xl text-sm">Seoul, December 12</motion.span>
                     </motion.div>
                 </div>

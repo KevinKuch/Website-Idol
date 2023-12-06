@@ -29,12 +29,12 @@ export default function Navbar({}) {
                     className='flex flex-row items-center lg:space-x-10 space-x-6 max-md:hidden'>
                         <li><a href="">Accueil</a></li>
                         <li><a href="">Performance</a></li>
-                        <li><a href="">Reservation</a></li>
-                        <li><a href="">Store</a></li>
-                        <li><a href="">About</a></li>
+                        <li><a href="">Réservation</a></li>
+                        <li><a href="">Boutique</a></li>
+                        <li><a href="">À propos</a></li>
                     </motion.ul>
                     <div className='cursor-pointer'>
-                        <button className='lg:px-7 py-2 px-5 bg-white text-black'>Sign in/Log in</button>
+                        <button className='lg:px-7 py-2 px-5 bg-white text-black'>Connexion</button>
                     </div>
                 </div>
             </nav>  
